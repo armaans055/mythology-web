@@ -102,4 +102,13 @@ ul.navlist{
 .right-side2{
     background-color: #D0CDD7;
 }
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-img{
+    border-radius: 6px;
+    border: 4px solid white;
+    margin: 8px;
+}
 
