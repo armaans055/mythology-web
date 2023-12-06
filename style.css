@@ -62,6 +62,8 @@ ul.navlist{
     color:lightgrey;
     font-size: 2em;
     padding: 12px;
+    position: sticky;
+    top: 0px;
 
 }
 .nav,
@@ -83,5 +85,21 @@ ul.navlist{
 .right-side{
     background-color: #416165;
     padding: 5px;
+    border-bottom: 5px solid black;
+}
+.left-side{
+    display: flex;
+    font-size: 1.7em;
+    color:blanchedalmond;
+    align-items: center;
+    justify-content: center;
+}
+.left-side>p{
+    border-radius: 8px;
+    padding: 6px;
+}
+.left-side2,
+.right-side2{
+    background-color: #D0CDD7;
 }
 
