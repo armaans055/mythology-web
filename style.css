@@ -50,15 +50,15 @@ html, body {
     margin: 0;
     height: 100%;
 }
-*{
+/* *{
     background-color: #ACB0BD;
-}
+} */
 ul.navlist{
     display: flex;
     justify-content: space-evenly;
 }
 .nav{
-    border-radius: 8px;
+    border-radius: 0 0 12px 12px;
     color:lightgrey;
     font-size: 2em;
     padding: 12px;
@@ -69,5 +69,19 @@ ul.navlist>li,
 ul.navlist{
     background-color: #0B3948;
     position: sticky;
+}
+.hero{
+    border: 1px solid black;
+    display: flex;
+}
+.heropic{
+    border-radius: 5px;
+    border: 4px solid white;
+}
+
+.left-side,
+.right-side{
+    background-color: #416165;
+    padding: 5px;
 }
 
