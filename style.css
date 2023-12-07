@@ -141,3 +141,10 @@ ul.navlist{
     padding: 12px;
     border-radius: 8px;
 }
+
+.nav>ul>li:hover{
+    cursor:pointer;
+    font-size: 105%;
+    text-decoration: underline;
+    transition: .3s;
+}
