@@ -92,14 +92,15 @@ ul.navlist{
 }
 .left-side{
     display: flex;
-    font-size: 1.7em;
+    font-size: 2em;
     color:blanchedalmond;
     align-items: center;
     justify-content: center;
+    text-wrap: wrap;
 }
 .left-side>p{
     border-radius: 8px;
-    padding: 6px;
+    padding: 10px;
 }
 .left-side2,
 .right-side2{
