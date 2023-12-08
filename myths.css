@@ -88,3 +88,72 @@ a{
     text-decoration: none;
     color:lightgrey
 }
+
+.first-myth{
+    display:flex;
+    padding: 40px;
+}
+.second-myth{
+    display:flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+    
+}
+.third-myth{
+    display:flex;
+    padding: 40px;
+}
+.fourth-myth{
+    display:flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+.fifth-myth{
+    display:flex;
+    padding: 40px;
+}
+
+.left-side1,
+.left-side2,
+.left-side3,
+.left-side4,
+.left-side5{
+    font-size: 2em;
+    padding: 40px;
+    background-color: grey;
+    border-radius: 12px;
+}
+
+.right-side1>img,
+.right-side2>img,
+.right-side3>img,
+.right-side4>img,
+.right-side5>img{
+    border-radius: 20px;
+}
+
+.left-side1>p,
+.left-side2>p,
+.left-side3>p,
+.left-side4>p,
+.left-side5>p{
+    background-color: grey;
+    border-radius: 8px;
+}
+.right-side{
+    background-color: grey;
+}
+.footer>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left:40px;
+    margin-right: 40px;
+    color: white;
+    font-size: 1.8em;
+}
+
+.footer{
+    background-color: #0B3948;
+    border-radius: 8px 8px;
+}
