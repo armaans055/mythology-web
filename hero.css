@@ -112,8 +112,7 @@ p{
     font-size: 1.4em;
     color: white;
     text-wrap:wrap;
-    background-color: grey;
-    padding-top: 15px;
+    background-color: darkgrey;
 }
 
 .container{
@@ -130,14 +129,36 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
-    width: 400px;
-    background-color: grey;
+    height: 550px;
+    width: 450px;
+    background-color: darkgrey;
     margin: 30px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 img{
-    background-color: grey;
+    border-radius: 35px;
+    background-color: darkgrey;
 }
 
+.top,
+.top1,
+.top2{
+    background-color: darkgrey;
+}
+
+.sub-text,
+.sub-text1,
+.sub-text2{
+    padding: 15px;
+    background-color:darkgrey;
+}
+
+.left:hover,
+.middle:hover,
+.right:hover{
+    transform: scale(1.01);
+    transition: 1s;
+    cursor:pointer;
+    
+}
