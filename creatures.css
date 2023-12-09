@@ -153,9 +153,9 @@ img{
 
 .creature1:hover,
 .creature2:hover{
-    transform:scale(1.01);
+    transform:scale(1.05);
     border-color: darkslategrey;
-    transition: .4s;
+    transition: 1s;
     cursor:pointer;
 }
 p{
