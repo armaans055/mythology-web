@@ -135,6 +135,7 @@ p{
     margin: 30px;
     padding: 10px;
     border-radius: 20px;
+    border: 5px solid black;
 }
 img{
     border-radius: 35px;
@@ -160,5 +161,6 @@ img{
     transform: scale(1.01);
     transition: 1s;
     cursor:pointer;
+    border-color:grey;
     
 }

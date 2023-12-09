@@ -125,6 +125,7 @@ a{
     display:flex;
     align-items: center;
     justify-content: center;
+    border: 5px solid darkslategray;
 }
 
 .right-side1>img,
@@ -133,6 +134,7 @@ a{
 .right-side4>img,
 .right-side5>img{
     border-radius: 20px;
+    border: 5px solid darkslategray;
 }
 
 .left-side1>p,
