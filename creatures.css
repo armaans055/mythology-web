@@ -108,57 +108,54 @@ sup{
     background-color: grey;
 }
 
-p{
-    font-size: 1.4em;
-    color: white;
-    text-wrap:wrap;
-    background-color: darkgrey;
-}
-
 .container{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/dark-cave-landscape_1308-16279.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
-.left,
-.middle,
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 550px;
-    width: 450px;
-    background-color: darkgrey;
-    margin: 30px;
-    padding: 10px;
+.creature1,
+.creature2{
+    height: 500px;
+    width: 400px;
     border-radius: 20px;
-}
-img{
-    border-radius: 35px;
-    background-color: darkgrey;
+    border: 2px solid black;
 }
 
 .top,
-.top1,
 .top2{
-    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    border: solid burlywood 4px;
 }
 
-.sub-text,
-.sub-text1,
-.sub-text2{
-    padding: 15px;
-    background-color:darkgrey;
+.bottom,
+.bottom2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 800;
 }
 
-.left:hover,
-.middle:hover,
-.right:hover{
-    transform: scale(1.01);
-    transition: 1s;
+.creature1:hover,
+.creature2:hover{
+    transform:scale(1.01);
+    border-color: darkslategrey;
+    transition: .4s;
     cursor:pointer;
-    
 }
+
